@@ -31,6 +31,7 @@
 	</ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="EmbedIO" Version="3.5.0" />
         <PackageReference Include="GenFu" Version="1.6.0" />
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.6" />
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.6" PrivateAssets="all" />

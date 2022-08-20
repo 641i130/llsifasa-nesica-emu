@@ -6,9 +6,11 @@ public static class Configs
 {
     public const bool USE_FILE_CACHE = true;
 
-    public const string ROOT_CA_CN = "Taito Arcade Machine CA";
+    public const string ROOT_CA_CN = "nesys";
 
-    public const string CERT_CN = "GC local server";
+    public const string CERT_CN = "PREMIUM";
+
+    public const string CERT_ISSUER = "PREMIUM";
 
     public const string DB_FOLDER = "db";
 
@@ -145,6 +147,7 @@ public static class Configs
     {
         "localhost",
         "cert.nesys.jp",
+        "cert3.nesys.jp",
         "nesys.taito.co.jp",
         "fjm170920zero.nesica.net"
     };

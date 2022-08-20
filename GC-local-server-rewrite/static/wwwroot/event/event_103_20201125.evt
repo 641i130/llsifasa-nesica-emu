@@ -1,0 +1,181 @@
+event_id = 103
+title = "東方鬼形獣オンライン対戦イベント"
+comment = ""
+open_date = (2020, 11, 25)
+close_date = (2020, 12, 20)
+open_time = (9, 0, 0)
+close_time = (23, 59, 0)
+ver = "4.64.01"
+play_open_time = (0, 0, 0)
+play_close_time = (0, 0, 0)
+type = 0
+challenge_num = 0
+play_mode = 1
+
+select_music_data = (812,90,91,159,184,189,255,262,265,278,254,409,317,348,349,651,819,820,362,759,765,575,576,407,366,608,600,601,581,811)
+
+reward0.type = 2
+reward0.start = 1
+reward0.end = 50
+reward0.title = 5159
+reward0.avatar = 0
+reward0.item = 21
+reward0.item_num = 3
+reward0.trophy_num = 2
+reward0.music = 0
+reward0.navigator = 0
+
+reward1.type = 3
+reward1.start = 1
+reward1.end = 100
+reward1.title = 5160
+reward1.avatar = 0
+reward1.item = 18
+reward1.item_num = 5
+reward1.trophy_num = 2
+reward1.music = 0
+reward1.navigator = 0
+
+reward2.type = 4
+reward2.start = 1
+reward2.end = 250
+reward2.title = 5161
+reward2.avatar = 0
+reward2.item = 13
+reward2.item_num = 5
+reward2.trophy_num = 2
+reward2.music = 0
+reward2.navigator = 0
+
+reward3.type = 5
+reward3.start = 1
+reward3.end = 500
+reward3.title = 5162
+reward3.avatar = 0
+reward3.item = 12
+reward3.item_num = 5
+reward3.trophy_num = 2
+reward3.music = 0
+reward3.navigator = 0
+
+reward4.type = 5
+reward4.start = 1
+reward4.end = 1000
+reward4.title = 5163
+reward4.avatar = 0
+reward4.item = 11
+reward4.item_num = 5
+reward4.trophy_num = 2
+reward4.music = 0
+reward4.navigator = 8
+
+reward5.type = 10
+reward5.start = 0
+reward5.end = 1000
+reward5.title = 5164
+reward5.avatar = 0
+reward5.item = 9
+reward5.item_num = 5
+reward5.trophy_num = 0
+reward5.music = 0
+reward5.navigator = 86
+
+reward6.type = 10
+reward6.start = 0
+reward6.end = 900
+reward6.title = 5165
+reward6.avatar = 155
+reward6.item = 15
+reward6.item_num = 5
+reward6.trophy_num = 0
+reward6.music = 0
+reward6.navigator = 0
+
+reward7.type = 10
+reward7.start = 0
+reward7.end = 800
+reward7.title = 5166
+reward7.avatar = 310
+reward7.item = 10
+reward7.item_num = 5
+reward7.trophy_num = 0
+reward7.music = 0
+reward7.navigator = 0
+
+reward8.type = 10
+reward8.start = 0
+reward8.end = 700
+reward8.title = 5167
+reward8.avatar = 86
+reward8.item = 21
+reward8.item_num = 3
+reward8.trophy_num = 0
+reward8.music = 0
+reward8.navigator = 0
+
+reward9.type = 10
+reward9.start = 0
+reward9.end = 600
+reward9.title = 5168
+reward9.avatar = 311
+reward9.item = 6
+reward9.item_num = 5
+reward9.trophy_num = 0
+reward9.music = 0
+reward9.navigator = 0
+
+reward10.type = 10
+reward10.start = 0
+reward10.end = 500
+reward10.title = 5169
+reward10.avatar = 0
+reward10.item = 8
+reward10.item_num = 5
+reward10.trophy_num = 0
+reward10.music = 0
+reward10.navigator = 14
+
+reward11.type = 10
+reward11.start = 0
+reward11.end = 400
+reward11.title = 5170
+reward11.avatar = 312
+reward11.item = 4
+reward11.item_num = 5
+reward11.trophy_num = 0
+reward11.music = 0
+reward11.navigator = 0
+
+reward12.type = 10
+reward12.start = 0
+reward12.end = 300
+reward12.title = 5171
+reward12.avatar = 128
+reward12.item = 7
+reward12.item_num = 5
+reward12.trophy_num = 0
+reward12.music = 0
+reward12.navigator = 0
+
+reward13.type = 10
+reward13.start = 0
+reward13.end = 200
+reward13.title = 5172
+reward13.avatar = 201
+reward13.item = 11
+reward13.item_num = 5
+reward13.trophy_num = 0
+reward13.music = 0
+reward13.navigator = 0
+
+reward14.type = 10
+reward14.start = 0
+reward14.end = 100
+reward14.title = 5173
+reward14.avatar = 0
+reward14.item = 14
+reward14.item_num = 5
+reward14.trophy_num = 0
+reward14.music = 0
+reward14.navigator = 0
+

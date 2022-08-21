@@ -14,6 +14,7 @@ If you don't have the modified NesysService.exe, modify the host file, add the f
 
 ```
 127.0.0.1 cert.nesys.jp
+127.0.0.1 cert3.nesys.jp
 127.0.0.1 data.nesys.jp
 127.0.0.1 nesys.taito.co.jp
 127.0.0.1 fjm170920zero.nesica.net

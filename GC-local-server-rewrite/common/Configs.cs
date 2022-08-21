@@ -144,9 +144,9 @@ public static class Configs
     public static readonly List<string> DOMAINS = new()
     {
         "localhost",
-        "nesys.taito.co.jp",
         "cert.nesys.jp",
         "cert3.nesys.jp",
+        "data.nesys.jp",
         "nesys.taito.co.jp",
         "fjm170920zero.nesica.net"
     };

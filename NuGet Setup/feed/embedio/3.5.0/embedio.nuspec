@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>EmbedIO</id>
+    <version>3.5.0</version>
+    <authors>Unosquare, and Contributors to EmbedIO</authors>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>http://unosquare.github.io/embedio</projectUrl>
+    <iconUrl>https://unosquare.github.io/embedio/embedio.png</iconUrl>
+    <description>A tiny, cross-platform, module based, MIT-licensed web server. Supporting NET Framework, Net Core, and Mono.</description>
+    <copyright>Copyright (C) Unosquare 2013-2022</copyright>
+    <tags>webserver websocket webapi http</tags>
+    <repository type="git" url="https://github.com/unosquare/embedio/" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Unosquare.Swan.Lite" version="3.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

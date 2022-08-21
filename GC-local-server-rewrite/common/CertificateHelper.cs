@@ -33,11 +33,6 @@ public static class CertificateHelper
         CommonName = Configs.CERT_CN
     };
 
-    private static readonly DistinguishedName CERT_ISSUER_NAME = new()
-    {
-        CommonName = Configs.CERT_ISSUER
-    };
-
     private static readonly BasicConstraints ROOT_CA_BASIC_CONSTRAINTS = new()
     {
         CertificateAuthority = true,

@@ -10,8 +10,6 @@ public static class Configs
 
     public const string CERT_CN = "PREMIUM";
 
-    public const string CERT_ISSUER = "PREMIUM";
-
     public const string DB_FOLDER = "db";
 
     public const string LOG_FOLDER = "log";
@@ -146,6 +144,7 @@ public static class Configs
     public static readonly List<string> DOMAINS = new()
     {
         "localhost",
+        "nesys.taito.co.jp",
         "cert.nesys.jp",
         "cert3.nesys.jp",
         "nesys.taito.co.jp",

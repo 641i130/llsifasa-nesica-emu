@@ -87,6 +87,16 @@ public class ServerController : WebApiController
 
         return "1\n";
     }
+    
+    [Route(HttpVerbs.Get, "/FireAlert.php")]
+    public string FireAlert()
+    {
+        HttpContext.Response.ContentType = MediaTypeNames.Text.Plain;
+        HttpContext.Response.ContentEncoding = new UTF8Encoding(false);
+        HttpContext.Response.KeepAlive = true;
+
+        return "1\n";
+    }
 
     [Route(HttpVerbs.Get, "/data.php")]
     public string Data()

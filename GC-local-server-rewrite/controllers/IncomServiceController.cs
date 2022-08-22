@@ -3,6 +3,7 @@ using System.Text;
 using EmbedIO;
 using EmbedIO.Routing;
 using EmbedIO.WebApi;
+using Swan.Logging;
 
 namespace GCLocalServerRewrite.controllers;
 
@@ -21,8 +22,12 @@ public class IncomServiceController : WebApiController
 
     [Route(HttpVerbs.Post, "/incomALL.php")]
     // ReSharper disable once UnusedMember.Global
-    public string IncomAllService()
+    public async Task<string> IncomAllService()
     {
+        string data = await HttpContext.GetRequestBodyAsStringAsync();
+        
+        $"IncomAllService received data: {data}".Info();
+        
         HttpContext.Response.ContentType = MediaTypeNames.Text.Plain;
         HttpContext.Response.ContentEncoding = new UTF8Encoding(false);
         HttpContext.Response.KeepAlive = true;
